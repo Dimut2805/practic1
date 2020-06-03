@@ -1,0 +1,11 @@
+<hibernate-mapping>
+    <class name="ru.uds.database.model.ListStudents" table="list_students">
+        <id name="id">
+            <generator class="assigned"/>
+        </id>
+        <property name="surname"/>
+        <property name="name"/>
+
+    </class>
+
+</hibernate-mapping>
